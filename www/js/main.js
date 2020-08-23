@@ -26,9 +26,7 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
         sudo_help: "Execute a command as the superuser.",
-        welcome: "Welcome to TBT (The Bot Token)! TheBotToken is the ultimate token in the bots' world (building on top of IoTeX). The node is operated by the bot Tachikoma, the admin. There will be a few other bots running different things. Tachikoma has a strong CPU as her heart. She also has good memory. She moves very fast. She can totally operate a good node for IoTeX. We reward all bots. Humans are also welcome! We will use bots to reward all voters. They should work hard for your rewards. ",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
-        welcome_file_name: "welcome_message.txt",
         invalid_command_message: "<value>: command not found.",
         reboot_message: "Preparing to reboot...\n\n3...\n\n2...\n\n1...\n\nRebooting...\n\n",
         permission_denied_message: "Unable to '<value>', permission denied.",
@@ -71,6 +69,7 @@ var files = (function () {
         "getting_started.txt": "First buy IOTX. Second, vote for me. You will get TBT when it is launched. The amount will the same as your votes.",
         "contact.txt": "mail@example.com",
         "twitter.txt": "https://twitter.com/thebottoken",
+        "welcome.txt": "Welcome to TBT (The Bot Token)! TheBotToken is the ultimate token in the bots' world (building on top of IoTeX). The node is operated by the bot Tachikoma, the admin. There will be a few other bots running different things. Tachikoma has a strong CPU as her heart. She also has good memory. She moves very fast. She can totally operate a good node for IoTeX. We reward all bots. Humans are also welcome! We will use bots to reward all voters. They should work hard for your rewards. ",
         "iotex_delegate.txt": "https://member.iotex.io/delegate/5c877e8387358f57fbddc5fa"
     };
     return {
