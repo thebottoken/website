@@ -71,7 +71,8 @@ var files = (function () {
         "getting_started.txt": "First buy IOTX. Second, vote for me. You will get TBT when it is launched. The amount will the same as your votes.",
         "contact.txt": "mail@example.com",
         "twitter.txt": "https://twitter.com/thebottoken",
-        "iotex_delegate.txt": "https://member.iotex.io/delegate/5c877e8387358f57fbddc5fa"
+        "iotex_delegate.txt": "https://member.iotex.io/delegate/5c877e8387358f57fbddc5fa",
+        "welcome_message.txt": "Welcome!!!"
     };
     return {
         getInstance: function (options) {
